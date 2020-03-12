@@ -9,6 +9,12 @@ ls -la $HUGO_TASKS
 echo "[INFO] Content of DIR HUGO_SOURCE"
 ls -la $HUGO_SOURCE
 
+echo "[INFO] Content of DIR HUGO_CONTENT"
+ls -la $HUGO_CONTENT
+
+echo "[INFO] PRINTENV"
+printenv
+
 while true; do
 	# shellcheck disable=SC1090
 	. ${HUGO_TASKS}/hugo_common.sh

@@ -1,14 +1,14 @@
 main:
-  - identifier: about
-    name: About
-    url: about
+  - identifier: docs
+    name: "[Docs]"
+    url: "http://localhost/docs"
     weight: 1
-  - parent: about
-    name: Certificates
-    url: about/certificates
-  - parent: about
-    name: Hackathons
-    url: about/hackathons
+#  - parent: about
+#    name: Certificates
+#    url: about/certificates
+#  - parent: about
+#    name: Hackathons
+#    url: about/hackathons
 #
 #  - identifier:  archive
 #    name: Archive
@@ -67,20 +67,16 @@ main:
 #    url: presentation
 #    weight: 5
 #
-#  - identifier:  Contact
-#    name: "@"
-#    url: contact
-#    weight: 6
 #
-#  - identifier:  gallery
-#    name: Gallery
-#    url: gallery
-#    weight: 5
-#    
-#  - parent: gallery
-#    name: Cartoon
-#    url: gallery/cartoon
-#    
-#  - parent: gallery
-#    name: Photo
-#    url: gallery/photo
+  - identifier:  gallery
+    name: Gallery
+    url: gallery
+    weight: 5
+
+  - parent: gallery
+    name: Cartoon
+    url: gallery/cartoon
+
+  - parent: gallery
+    name: Photo
+    url: gallery/photo
