@@ -37,7 +37,7 @@ fi
 
 git commit -m "$msg" || true
 
-# Push source and build repos.
+# Push source and build reposList.
 git push origin master || true
 
 
@@ -68,5 +68,5 @@ if [ -n "$*" ]; then
 fi
 git commit -m "$msg"
 
-# Push source and build repos
+# Push source and build reposList
 git push origin master
