@@ -1,76 +1,103 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Our Works
+  title : Our Projects
   portfolio_item :
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
+    - name : Grupowicze
+      image : images/portfolio/grupowicze.jpg
+      image_webp : images/portfolio/grupowicze.jpg
+      categories : ["social"]
+      content : <iframe src="https://player.vimeo.com/video/439837698" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      link : "https://grupowicze.pl"
       
     # portfolio item loop
-    - name : Sound system
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    - name : Airandy
+      image : images/portfolio/airandy.jpg
+      image_webp : images/portfolio/airandy.jpg
+      categories : ["transportation"]
+      content : 
+      link : "https://airandy.me"
+      
+    # portfolio item loop
+    - name : Lubimy Razem
+      image : 
+      image_webp : 
+      categories : ["social"]
+      content : 
+      link : "https://lubimyrazem.pl"
+      
+    # portfolio item loop
+    - name : Soul Park
+      image : 
+      image_webp : 
+      categories : ["social"]
+      content : 
+      link : "https://soul-park.pl"
+
+    # portfolio item loop
+    - name : Startuple
+      image : 
+      image_webp : 
+      categories : ["social"]
+      content : 
+      link : "https://startuple.pl"
+            
+    # portfolio item loop
+    - name : Novels Park
+      image : 
+      image_webp : 
+      categories : ["media"]
+      content : 
+      link : "https://novelspark.me"
+            
+    # portfolio item loop
+    - name : "Tutaj Moto"
+      image : 
+      image_webp : 
+      categories : ["shopping"]
+      content : 
+      link : "tutajmoto.pl"
+
+    # portfolio item loop
+    - name : "Złap Go"
+      image : 
+      image_webp : 
+      categories : ["social"]
+      content : 
+      link : ""
+
+   # portfolio item loop
+    - name : "<Hidden 0>"
+      image : 
+      image_webp : 
+      categories : ["games"]
+      content : 
+      link : ""         
+
+    # portfolio item loop
+    - name : "<Hidden 1>"
+      image : 
+      image_webp : 
+      categories : ["transportation"]
+      content : 
+      link : ""
+                      
+    # portfolio item loop
+    - name : "<Hidden 2>"
+      image : 
+      image_webp : 
+      categories : ["shopping"]
+      content : 
       link : ""
       
+
     # portfolio item loop
-    - name : Clock Product
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    - name : "<Hidden 3>"
+      image : 
+      image_webp : 
+      categories : ["shopping"]
+      content : 
+      link : ""
       
-    # portfolio item loop
-    - name : Bottol Label
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
-      categories : ["photography", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Shopping Bag
-      image : images/portfolio/portfolio-5.jpg
-      image_webp : images/portfolio/portfolio-5.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
-      categories : ["photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Business Card
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Stationary Design
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["design", "photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    

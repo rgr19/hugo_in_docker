@@ -6,6 +6,7 @@ set -e
 . ${HUGO_TASKS}/hugo_common.sh
 
 echo "[INFO] Hugo cleanup"
+echo "[INFO] CNAME at $HUGO_OUTPUT/CNAME"
 
 if [ "$HUGO_GC" == 'true' ]; then
 	$HUGO --gc || true

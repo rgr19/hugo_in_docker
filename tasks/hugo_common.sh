@@ -9,6 +9,7 @@ HUGO_OUTPUT="${HUGO_OUTPUT:=/output}"
 HUGO_PORT="${HUGO_PORT:=1313}"
 HUGO_REPLAY=${HUGO_REPLAY:=3600}
 HUGO_FAST_RUN=${HUGO_FAST_RUN:=false}
+HUGO_APPEND_PORT=${HUGO_APPEND_PORT:=true}
 echo "HUGO_FAST_RUN: " $HUGO_FAST_RUN
 echo "HUGO_WATCH:" $WATCH
 echo "HUGO_GC:" $HUGO_GC
@@ -52,8 +53,8 @@ function hugo_common() {
 function hugo_server_common() {
 	hugo_common server \
 		--bind="${HUGO_WEB_NAME}" \
-		--port="$HUGO_PORT" \
+		--port="${HUGO_PORT}" \
 		--environment="${HUGO_ENV}" \
-		--appendPort=true \
+		--appendPort="${HUGO_APPEND_PORT}" \
 		$@
 }

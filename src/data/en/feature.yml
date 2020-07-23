@@ -3,25 +3,38 @@ feature:
   enable : true
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  title : Skills
+  content : "With wide range of skills we won't miss any opportunity!"
   feature_item : 
       # feature item loop
-    - title : SEO Optimized
+    - title : "Programming Languages"
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-      # feature item loop
-    - title : Easy Customization
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : "Python, Java, C++, Typescript, Javascript"
 
-      # feature item loop
-    - title : SEO Optimized
+    - title : "Web & Mobile"
+      icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      content : Angular, Nativescript, Android
+    
+    - title : "Backend & Services"
+      icon : ti-server # themify icon pack : https://themify.me/themify-icons
+      content : Django, Redis, Rabbit-MQ, Elastic-Search
+
+    - title : Microservices
+      icon : ti-rss-alt # themify icon pack : https://themify.me/themify-icons
+      content : Kubernetes, Helm, Rancher
+
+    - title : "Cloud & CI/CD"
+      icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+      content : AWS, Ansible, Openstack, Docker, Travis
+
+    - title : Computer Graphics & Machine Learning
       icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : OpenGL, Tensorflow
       
-      # feature item loop
-    - title : Easy Customization
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Parallelization
+      icon : ti-layers-alt # themify icon pack : https://themify.me/themify-icons
+      content : OpenMP, OpenMPI, Cuda, Cython, Numpy, Fortran
+
+    - title : Optimisations
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : "Vectorization, Threading, Algortithms, Datastructures, Real Time Systems, Distributed Systems"

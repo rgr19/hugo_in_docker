@@ -4,11 +4,11 @@ team:
   title : Our Team
   team_member :
     # team member loop
-    - name : Abul Mal Muhit
-      image_webp : images/team/team-1.webp
-      image : images/team/team-1.jpg
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    - name : R. Grzelka
+      image_webp : images/team/rgr3d.webp
+      image : images/team/rgr3d.jpg
+      designation : General & Technical Head
+      content : Driving force of whole team. Like to work smart and hard. Do not like to waste time and useless people. Currently doing programming and everything else.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"
@@ -18,13 +18,11 @@ team:
           link : "#"
         - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
           link : "#"
-        
-    # team member loop
-    - name : Frank Miller
-      image_webp : images/team/team-2.webp
-      image : images/team/team-2.jpg
-      designation : Manager
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    - name : D. Li
+      image_webp : images/team/dql.webp
+      image : images/team/dql.png
+      designation : AI, Public Relations & Accounting
+      content : Biggest brain of whole Team. Mathematician, strong logical mind, great at public relations. Like to save money and control finances.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"
@@ -34,13 +32,11 @@ team:
           link : "#"
         - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
           link : "#"
-        
-    # team member loop
-    - name : Michael Jonson
-      image_webp : images/team/team-3.webp
-      image : images/team/team-3.jpg
-      designation : Web Developer
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    - name : M. Medrek
+      image_webp : images/team/mdk.webp
+      image : images/team/mdk.png
+      designation : Finances & Marketing
+      content : Handsome and like gym, traveling and dietetics.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"
@@ -50,19 +46,5 @@ team:
           link : "#"
         - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
           link : "#"
-        
-    # team member loop
-    - name : Mo. Kha. Alamgir
-      image_webp : images/team/team-4.webp
-      image : images/team/team-4.jpg
-      designation : SEO Specialist
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+                        
+            

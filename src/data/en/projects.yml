@@ -1,0 +1,22 @@
+############################# About ###################################
+projects:
+  enable : true
+  title : Our Projects
+  projects_item :
+  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
+    title : "Grupowicze"
+    content : "Social media web/mobile at https://grupowicze.pl" 
+
+  - icon: "ti-cup"
+    title : "Startuple"
+    content : "Startups social media at https://startuple.pl"
+          
+  - icon: "ti-cup"
+    title : "NovelsPark"
+    content : "Novels social media at https://novelspark.me"
+
+  - icon: "ti-cup"
+    title : "<Hidden 15>"
+    content : "Early stages of our 15 unique projects are hidden."
+      
+    

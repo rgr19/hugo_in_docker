@@ -5,8 +5,8 @@ banner:
   bg_image : "images/backgrounds/hero-area.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "Ralf-IT"
-  content : "Hungry for tomorrow? Experience the new reality. (Website work in progress)."
+  content : "Głodny za jutrem? Odkryj morze możliwości."
   button:
     enable : true
-    label : "Explore Us"
+    label : "O nas"
     link : "#about"

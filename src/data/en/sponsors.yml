@@ -1,0 +1,10 @@
+############################# feature ###################################
+sponsors:
+  enable : true
+  image : images/about/sponsors.svg
+  image_webp : images/about/sponsors.webp
+  title : Our Sponsors
+  content : "We hereby present our Awesome Sponsors!"
+  feature_item : 
+      # feature item loop
+
