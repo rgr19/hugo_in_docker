@@ -54,6 +54,6 @@ function hugo_server_common() {
 		--bind="${HUGO_WEB_NAME}" \
 		--port="$HUGO_PORT" \
 		--environment="${HUGO_ENV}" \
-		--appendPort=false \
+		--appendPort=true \
 		$@
 }

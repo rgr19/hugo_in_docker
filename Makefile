@@ -14,8 +14,8 @@ check_env:
 		"HUGO_VERSION=${HUGO_VERSION}" \
 		"HUGO_TYPE=${HUGO_TYPE}" \
 		"HUGO_HOME=${HUGO_HOME}" \
-		"${HOST_HUGO_OUTPUT}:${HUGO_HOME}:rw"  \
-		"${HOST_HUGO_CONTENT}:${HUGO_OUTPUT}:ro" \
+		"${HOST_HUGO_OUTPUT}:${HUGO_OUTPUT}:rw"  \
+		"${HOST_HUGO_CONTENT}:${HUGO_CONTENT}:ro" \
 		"${HOST_HUGO_CACHE}:${HUGO_RESOURCES}:rw"
 
 clean:
@@ -27,7 +27,7 @@ run:
 
 docker_build:
 	docker build \
-		--tag blog-docker \
+		--tag hugo-docker-${HUGO_ENV} \
 		--build-arg HUGO_VERSION=${HUGO_VERSION} \
 		--build-arg HUGO_TYPE=${HUGO_TYPE} \
 		--build-arg HUGO_HOME=${HUGO_HOME} \
@@ -43,5 +43,5 @@ docker_run: docker_build
 		-v "${PWD}/${HOST_HUGO_OUTPUT}:${HUGO_OUTPUT}:rw"  \
 		-v "${PWD}/${HOST_HUGO_CONTENT}:${HUGO_CONTENT}:ro" \
 		-v "${PWD}/${HOST_HUGO_CACHE}:${HUGO_RESOURCES}:rw" \
-		blog-docker \
+		hugo-docker-${HUGO_ENV} \
 		make all

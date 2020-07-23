@@ -15,9 +15,20 @@ ls -la $HUGO_CONTENT
 echo "[INFO] PRINTENV"
 printenv
 
+
+if [ ! -e "${HUGO_TASKS}/hugo_common.sh" ]; then 
+  echo "[ERROR] ${HUGO_TASKS}/hugo_common.sh not exists"
+  exit -1
+fi
+
 while true; do
 	# shellcheck disable=SC1090
 	. ${HUGO_TASKS}/hugo_common.sh
+
+	if [ -z "$SLEEP" ]; then 
+		echo "[ERROR] Sleep not defined: $SLEEP"
+		exit -1
+	fi
 
 	ls -la ${HUGO_SOURCE}
 	echo "[INFO] Hugo MAIN loop..."

@@ -16,6 +16,8 @@ ARG HUGO_ID=hugo${HUGO_TYPE}_${HUGO_VERSION}
 ARG HUGO_FILE=${HUGO_ID}_Linux-64bit.tar.gz
 ARG HUGO_DOWNLOAD_ROOT=https://github.com/gohugoio/hugo/releases/download
 
+RUN echo ${HUGO_DOWNLOAD_ROOT}/v${HUGO_VERSION}/${HUGO_FILE} -O /tmp/${HUGO_FILE}
+
 RUN wget ${HUGO_DOWNLOAD_ROOT}/v${HUGO_VERSION}/${HUGO_FILE} -O /tmp/${HUGO_FILE} \
     && tar -xf /tmp/${HUGO_FILE} -C /tmp \
     && mkdir -p /usr/local/sbin \

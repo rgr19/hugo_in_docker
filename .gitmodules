@@ -10,3 +10,6 @@
 [submodule "src/themes/zdoc"]
 	path = src/themes/zdoc
 	url = git@github.com:rgr19/hugo-theme-zdoc.git
+[submodule "src/themes/meghna"]
+	path = src/themes/meghna
+	url = https://github.com/themefisher/meghna-hugo
