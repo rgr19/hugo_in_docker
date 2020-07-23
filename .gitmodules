@@ -13,3 +13,6 @@
 [submodule "src/themes/meghna"]
 	path = src/themes/meghna
 	url = https://github.com/themefisher/meghna-hugo
+[submodule "output/public"]
+	path = output/public
+	url = https://github.com/rgr19/hugo_in_docker_output_public
